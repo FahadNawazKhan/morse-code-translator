@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+}
+
+body {
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 700px;
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.42);
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#inputBoxes {
+    width: 100%;
+    min-height: 80%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 40%;
+    min-height: 200px;
+    padding: 20px 20px;
+    margin-inline: 20px;
+    flex: 1;
+    margin-top: 50px;
+    border-radius: 20px;
+    font-size: 20px
+    
+}
+
+#translateBtn{
+    margin-top: 30px;
+    padding: 20px 20px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(241, 57, 57, 0.514);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#translateBtn:hover{
+    background-color: brown;
+}
